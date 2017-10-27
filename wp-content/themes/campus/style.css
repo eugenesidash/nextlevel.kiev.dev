@@ -1,0 +1,91 @@
+/*
+	Theme Name: Campus (shared on wplocker.com)
+	Theme URI: http://www.campus.themeisland.net
+	Description: A premium responsive theme for WordPress
+	Author: Charles & Brandon Jones
+	Author URI: http://www.theme-island.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 3.1.2.2
+	Tags: white, two-columns, flexible-width, featured-images
+	
+	All stylesheets are stored in the /assets/stylesheets folder.
+	
+	*/
+
+	.qtranxs_language_chooser {margin-left: 100px; position: absolute !important;margin-top: -3px;right:0;}
+	.qtranxs_language_chooser li {display:inline-block; width:23px; height:23px; margin-right:2px;}
+	.qtranxs_language_chooser li  a {width:100% !important;height:100% !important;}
+	.container .tagline.omega {
+		min-width: 365px;
+	}
+	.teachers .image{
+min-width: 278px; 
+	}
+	.teachers .txt{
+		padding:0 20px;
+	}
+	.teachers img{
+		width: 278px;
+		height: 250px;
+		border-radius: 136px;
+	}
+	.teachers .row{
+		display: table;
+		margin-bottom: 0; 
+	}
+	.teachers .wpb_single_image{
+		text-align: center!important;
+	}
+	.teachers > div > div:nth-child(odd){
+
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.teachers > div > div:nth-child(even){
+
+
+				display: table-cell;
+		vertical-align: middle;
+	}
+	.teachers .wpb_text_column{
+/*		margin:80px 0 0 0;*/
+	}
+	.heading_title{
+		color: #666;
+		position: absolute;
+		left: 0;
+		top: 63px;
+		font-size: 29px;
+		display: none;
+	}
+	.heading_contacts{
+		color: #666;
+		position: absolute;
+		top: 17px;
+		right: 0;
+		font-size: 27px;
+		text-align: right;
+		line-height: 30px;
+		display: none;
+	}
+	.heading_contacts span{
+		display: block;
+	}
+
+	@media(min-width:1000px){
+		.heading_title, .heading_contacts{
+			display: block;
+		}
+		.tagline.omega{
+			display: none;
+		}
+	}
+	@media (max-width:768px){
+		.qtranxs_language_chooser{
+			right:108px;
+			width: 55px;
+			margin-top:0;
+		}
+
+	}

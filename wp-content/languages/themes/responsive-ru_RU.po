@@ -1,0 +1,1237 @@
+# Translation of Responsive in Russian
+# This file is distributed under the same license as the Responsive package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-08-14 15:48:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Responsive\n"
+
+#. Theme Name of the plugin/theme
+msgid "Responsive"
+msgstr "Responsive"
+
+#: core/includes/functions-admin.php:47
+msgid ""
+"<a href=\"http://cyberchimps.com/store/responsivepro/\" target=\"_blank\" title=\"Responsive Pro\">Responsive Pro</a> allows you to create Sliders using 13 Dynamic Sources like YouTube, Vimeo, Pinterest and more.\n"
+"Upgrade to <a href=\"http://cyberchimps.com/store/responsivepro/\" target=\"_blank\" title=\"Responsive Pro\">Responsive Pro</a> Today."
+msgstr ""
+"<a href=\"http://cyberchimps.com/store/responsivepro/\" target=\"_blank\" title=\"Responsive Pro\">Responsive Pro</a> позволяет создавать слайдеры используя 13 динамических источников, таких как YouTube, Vimeo, Pinterest и так далее.\n"
+" Обновитесь до <a href=\"http://cyberchimps.com/store/responsivepro/\" target=\"_blank\" title=\"Responsive Pro\">Responsive Pro</a> сегодня."
+
+#: core/includes/theme-options/theme-options.php:224
+msgid "Default Copyright Text"
+msgstr "Текст копирайта по умолчанию"
+
+#: core/includes/theme-options/theme-options.php:218
+msgid "Copyright Text"
+msgstr "Текст копирайта"
+
+#: core/includes/customizer.php:337
+#: core/includes/theme-options/theme-options.php:227
+msgid "Display Powered By WordPress Link"
+msgstr "Отображать ссылку работает на WordPress"
+
+#: core/includes/customizer.php:323
+msgid "Footer Settings"
+msgstr "Настройки подвала"
+
+#: core/includes/customizer.php:329
+msgid "Copyright text"
+msgstr "Текст копирайта"
+
+#: core/includes/customizer.php:326
+msgid "Default copyright text"
+msgstr "Текст копирайта по умолчанию"
+
+#. Template Name of the plugin/theme
+msgid "Blog Excerpt (summary)"
+msgstr "Блог отрывок (резюме)"
+
+#. Template Name of the plugin/theme
+msgid "Blog (full posts)"
+msgstr "Блог (полная статья)"
+
+#. Template Name of the plugin/theme
+msgid "Landing Page (no menu)"
+msgstr "Целевая страница (без меню)"
+
+#. Template Name of the plugin/theme
+msgid "Sitemap"
+msgstr "Карта сайта"
+
+#: sitemap.php:57
+msgid "Pages"
+msgstr "Страницы"
+
+#: sitemap.php:50
+msgid "Permanent Link to %s"
+msgstr "Постоянная ссылка на запись &laquo;%s&raquo;"
+
+#: sitemap.php:46
+msgid "Latest Posts"
+msgstr "Свежие посты"
+
+#: sitemap.php:41
+msgid "Categories"
+msgstr "Рубрики"
+
+#: single.php:48
+msgid "About"
+msgstr "Информация"
+
+#: sidebar-home.php:35
+msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area 6 called Home Widget 1. Title is also manageable from widgets as well."
+msgstr "Это окно Вашего виджета №1. Для редактирования перейдите по ссылке Внешний вид > Виджеты и выберите 6-й виджет сверху с названием Виджет №1. Заголовок также изменяется в виджетах."
+
+#: sidebar-home.php:54
+msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area 7 called Home Widget 2. Title is also manageable from widgets as well."
+msgstr "Это окно Вашего виджета №2. Для редактирования перейдите по ссылке Внешний вид > Виджеты и выберите 7-й виджет сверху с названием Виджет №2. Заголовок также изменяется в виджетах."
+
+#: sidebar-home.php:72
+msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area 8 called Home Widget 3. Title is also manageable from widgets as well."
+msgstr "Это окно Вашего виджета №3. Для редактирования перейдите по ссылке Внешний вид > Виджеты и выберите 8-й виджет сверху с названием Виджет №3. Заголовок также изменяется в виджетах."
+
+#: sidebar-gallery.php:73
+msgid "Camera:"
+msgstr "Камера:"
+
+#: sidebar-half-left.php:30 sidebar-left-half.php:30 sidebar-left.php:30
+#: sidebar-right-half.php:30 sidebar-right.php:30 sidebar.php:56
+msgid "In Archive"
+msgstr "В архиве"
+
+#: sidebar-gallery.php:59 sidebar-gallery.php:62 sidebar-gallery.php:66
+msgid "sec"
+msgstr "сек"
+
+#: sidebar-gallery.php:46
+msgid "mm"
+msgstr "мм"
+
+#: sidebar-gallery.php:50
+msgid "ISO:"
+msgstr "ISO:"
+
+#: sidebar-gallery.php:54
+msgid "Shutter:"
+msgstr "Выдержка:"
+
+#: sidebar-gallery.php:41
+msgid "Aperture: f&#47;"
+msgstr "Диафрагма: f&#47;"
+
+#: sidebar-gallery.php:46
+msgid "Focal Length:"
+msgstr "Фокус:"
+
+#: sidebar-gallery.php:28
+msgid "Image Information"
+msgstr "Информация об изображении"
+
+#: sidebar-gallery.php:35
+msgid "Full Size:"
+msgstr "Полный размер:"
+
+#: searchform.php:26
+msgid "Go"
+msgstr "Фильтровать"
+
+#: searchform.php:25
+msgid "search here &hellip;"
+msgstr "искать здесь &hellip;"
+
+#: searchform.php:24
+msgid "Search for:"
+msgstr "Найти:"
+
+#: loop-no-posts.php:34
+msgid "You can return %s or search for the page you were looking for."
+msgstr "Вы можете вернуться в %s или воспользоваться поиском и найти нужную Вам страницу"
+
+#: loop-no-posts.php:38
+msgid "&larr; Home"
+msgstr "&#8678; Начало"
+
+#: loop-no-posts.php:26
+msgid "Your search for %s did not match any entries."
+msgstr "Ваш поисковый запрос &laquo; %s &raquo; не нашел ни одной публикаций."
+
+#: loop-no-posts.php:26
+msgid "404 &#8212; Fancy meeting you here!"
+msgstr "404 &#8212; Страница не найдена!"
+
+#: loop-no-posts.php:31
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "Страница, которую Вы ищете, не существует или просто перемещена. Не волнуйтесь, рассмотрите предлагаемые варианты."
+
+#: loop-header.php:41
+msgid "Blog Archives"
+msgstr "Архив блога"
+
+#: loop-header.php:39
+msgid "Yearly Archives: %s"
+msgstr "Архив за год: %s"
+
+#: loop-header.php:37
+msgid "Monthly Archives: %s"
+msgstr "Архив за месяц: %s"
+
+#: loop-header.php:35
+msgid "Daily Archives: %s"
+msgstr "Архив за день: %s"
+
+#: image.php:74 post-data.php:32 sidebar-content-half-page.php:66
+#: sidebar-content-page.php:66 sitemap.php:65
+msgid "Edit"
+msgstr "Изменить"
+
+#: image.php:70 post-data.php:26 sidebar-content-half-page.php:62
+#: sidebar-content-page.php:62
+msgid "Posted in %s"
+msgstr "Опубликовано в %s"
+
+#: image.php:45 post-meta-page.php:35 post-meta.php:35
+#: sidebar-content-half-page.php:47 sidebar-content-page.php:47
+msgid "% Comments &darr;"
+msgstr "% комментариев &darr;"
+
+#: image.php:69 post-data.php:27 sidebar-content-half-page.php:61
+#: sidebar-content-page.php:61
+msgid "Tagged with:"
+msgstr "Метки:"
+
+#: image.php:45 post-meta-page.php:35 post-meta.php:35
+#: sidebar-content-half-page.php:47 sidebar-content-page.php:47
+msgid "No Comments &darr;"
+msgstr "Нет комментариев &darr;"
+
+#: image.php:45 post-meta-page.php:35 post-meta.php:35
+#: sidebar-content-half-page.php:47 sidebar-content-page.php:47
+msgid "1 Comment &darr;"
+msgstr "1 комментарий &darr;"
+
+#: image.php:36
+msgid "&#8249; Return to"
+msgstr "&#8249; Вернуться в"
+
+#: header.php:52
+msgid "&darr; Skip to Main Content"
+msgstr "&darr; Перейти к основному содержимому"
+
+#: footer.php:73
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:68
+msgid "&uarr;"
+msgstr "&#8679;"
+
+#: footer.php:73
+msgid "powered by"
+msgstr "создано с помощью"
+
+#: footer.php:71
+msgid "Responsive Theme"
+msgstr "Тема Responsive"
+
+#: footer.php:68
+msgid "scroll to top"
+msgstr "прокрутка наверх"
+
+#: core/includes/theme-options/theme-options.php:477
+msgid "Enter your custom header script."
+msgstr "Введите свои собственные скрипты в шапке."
+
+#: core/includes/theme-options/theme-options.php:483
+msgid "Embeds to footer.php &darr;"
+msgstr "Встраивается в footer.php &#8681;"
+
+#: core/includes/theme-options/theme-options.php:486
+msgid "Enter your custom footer script."
+msgstr "Введите Ваши собственные скрипты в подвале."
+
+#: footer.php:63
+msgid "&copy;"
+msgstr "&copy;"
+
+#: core/includes/upsell/theme-upsell.php:64
+msgid "Themes You Can Trust"
+msgstr "Темы, которой можно доверять"
+
+#: core/includes/theme-options/theme-options.php:472
+msgid "Custom Scripts for Header and Footer"
+msgstr "Собственные скрипты для шапки и подвала"
+
+#: core/includes/theme-options/theme-options.php:474
+msgid "Embeds to header.php &darr;"
+msgstr "Встраивается в header.php &#8681;"
+
+#: core/includes/theme-options/theme-options.php:473
+msgid "Quick Tutorial"
+msgstr "Краткое руководство"
+
+#: core/includes/theme-options/theme-options.php:466
+msgid "Enter your custom CSS styles."
+msgstr "Введите ваш стиль CSS"
+
+#: core/includes/theme-options/theme-options.php:454
+msgid "Enter your foursquare URL"
+msgstr "Введите свой URL адрес в foursquare"
+
+#: core/includes/theme-options/theme-options.php:462
+msgid "CSS Tutorial"
+msgstr "Учебник CSS"
+
+#: core/includes/theme-options/theme-options.php:436
+msgid "Enter your Yelp! URL"
+msgstr "Введите свой URL адрес в Yelp!"
+
+#: core/includes/theme-options/theme-options.php:445
+msgid "Enter your Vimeo URL"
+msgstr "Введите свой URL адрес в Vimeo"
+
+#: core/includes/theme-options/theme-options.php:427
+msgid "Enter your Pinterest URL"
+msgstr "Введите свой URL адрес в Pinterest"
+
+#: core/includes/theme-options/theme-options.php:418
+msgid "Enter your Instagram URL"
+msgstr "Введите свой URL адрес в Instagram"
+
+#: core/includes/theme-options/theme-options.php:400
+msgid "Enter your RSS Feed URL"
+msgstr "Введите свой URL адрес RSS канала"
+
+#: core/includes/theme-options/theme-options.php:409
+msgid "Enter your Google+ URL"
+msgstr "Введите свой URL адрес в Google+"
+
+#: core/includes/theme-options/theme-options.php:391
+msgid "Enter your StumbleUpon URL"
+msgstr "Введите свой URL адрес в StumbleUpon"
+
+#: core/includes/theme-options/theme-options.php:382
+msgid "Enter your YouTube URL"
+msgstr "Введите свой URL адрес в YouTube"
+
+#: core/includes/theme-options/theme-options.php:373
+msgid "Enter your LinkedIn URL"
+msgstr "Введите свой URL адрес в LinkedIn"
+
+#: core/includes/theme-options/theme-options.php:364
+msgid "Enter your Facebook URL"
+msgstr "Введите свой URL адрес в Facebook"
+
+#: core/includes/theme-options/theme-options.php:282
+msgid "Enter your content"
+msgstr "Введите свое содержание"
+
+#: core/includes/theme-options/theme-options.php:301
+#: template-parts/featured-area.php:57
+msgid "Call to Action"
+msgstr "Призыв к действию (Call to Action)"
+
+#: core/includes/theme-options/theme-options.php:355
+msgid "Enter your Twitter URL"
+msgstr "Введите свой URL адрес в Twitter"
+
+#: core/includes/theme-options/theme-options.php:273
+msgid "Enter your subheadline"
+msgstr "Введите свой подзаголовок"
+
+#: core/includes/theme-options/theme-options.php:291
+msgid "Enter your call to action URL"
+msgstr "Введите свой URL адрес призыва к действию"
+
+#: core/includes/theme-options/theme-options.php:300
+msgid "Enter your call to action text"
+msgstr "Введите свой текст призыва к действию"
+
+#: core/includes/theme-options/theme-options.php:305
+#: core/includes/theme-options/theme-options.php:306
+msgid "See Docs"
+msgstr "Cм. документацию"
+
+#: core/includes/theme-options/theme-options.php:243
+msgid "Need to replace or remove default logo?"
+msgstr "Хотите заменить или удалить стандартный логотип?"
+
+#: core/includes/theme-options/theme-options.php:264
+msgid "Enter your headline"
+msgstr "Введите свой заголовок"
+
+#: core/includes/theme-options/theme-options.php:255
+msgid "Overrides the WordPress %1sfront page option%2s"
+msgstr "Переопределяет %1sпараметр главной страницы%2s WordPress"
+
+#: core/includes/theme-options/theme-options.php:243
+msgid "Click here"
+msgstr "нажмите сюда,"
+
+#: core/includes/theme-options/theme-options.php:238
+msgid "Custom Header"
+msgstr "Произвольный заголовок"
+
+#: core/includes/theme-options/theme-options.php:215
+msgid "Blog"
+msgstr "Блог"
+
+#: core/includes/theme-options/theme-options.php:128
+msgid "Logo Upload"
+msgstr "Загрузка логотипа"
+
+#: core/includes/theme-options/theme-options.php:108
+msgid "Options Saved"
+msgstr "Параметры сохранены"
+
+#: core/includes/functions.php:361
+msgid "<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>%4$s"
+msgstr "<span class=\"%1$s\">Опубликовано </span>%2$s<span class=\"%3$s\"> Автор: </span>%4$s"
+
+#: core/includes/post-custom-meta.php:190
+msgid "Layout"
+msgstr "Разметка"
+
+#: core/includes/functions.php:162
+msgid "Footer Menu"
+msgstr "Меню в футере"
+
+#: core/includes/functions.php:161
+msgid "Sub-Header Menu"
+msgstr "Подзаголовок меню"
+
+#: core/includes/functions.php:160
+msgid "Header Menu"
+msgstr "Заголовок меню"
+
+#: core/includes/functions-sidebar.php:127
+msgid "Top Widget"
+msgstr "Верхний виджет"
+
+#: core/includes/functions-update.php:110
+msgid "update page"
+msgstr "Обновить страницу"
+
+#: core/includes/functions.php:159
+msgid "Top Menu"
+msgstr "Верхнее меню"
+
+#: core/includes/functions-sidebar.php:118
+msgid "Area 10 - sidebar-colophon.php, 100% width Footer widgets"
+msgstr "Площадь 10 - боковой colophon.php, 100% ширины колонтитулом виджеты"
+
+#: core/includes/functions-sidebar.php:128
+msgid "Area 11 - sidebar-top.php - Displays on the right of the header"
+msgstr "В области 11 боковой top.php - отображается справа от заголовка"
+
+#: core/includes/functions-sidebar.php:137
+msgid "Footer Widget"
+msgstr "Нижний колонтитул виджета"
+
+#: core/includes/functions-sidebar.php:138
+msgid "Area 12 - sidebar-footer.php - Maximum of 3 widgets per row"
+msgstr "Площадь 12 - боковой footer.php - максимум 3 виджетов в строке"
+
+#. Translators: This is a big update. Please read the blog post before
+#. updating.
+#: core/includes/functions-update.php:109
+msgid "<strong>WARNING:</strong> There is a big <strong>Responsive Theme</strong> update available. Please read the %1$s before updating."
+msgstr "<strong>ПРЕДУПРЕЖДЕНИЕ:</strong> Доступно большое обновление <strong>темы Responsive</strong>. Пожалуйста, прочтите %1$s перед обновлением."
+
+#: core/includes/functions-sidebar.php:107
+msgid "Gallery Sidebar"
+msgstr "Сайдбар галереи"
+
+#: core/includes/functions-sidebar.php:117
+msgid "Colophon Widget"
+msgstr "Нижний виджет"
+
+#: core/includes/functions-sidebar.php:98
+msgid "Area 8 - sidebar-home.php - Displays on the Home Page"
+msgstr "В области 8 боковой home.php - отображается на домашней странице"
+
+#: core/includes/functions-sidebar.php:108
+msgid "Area 9 - sidebar-gallery.php - Displays on the page after an image has been clicked in a Gallery"
+msgstr "Зона 9 боковой gallery.php - отображает на странице после нажатия изображение в галерее"
+
+#: core/includes/functions-sidebar.php:87
+msgid "Home Widget 2"
+msgstr "Виджет №2"
+
+#: core/includes/functions-sidebar.php:97
+msgid "Home Widget 3"
+msgstr "Виджет №3"
+
+#: core/includes/functions-sidebar.php:78
+msgid "Area 6 - sidebar-home.php - Displays on the Home Page"
+msgstr "6 боковой home.php - район отображается на домашней странице"
+
+#: core/includes/functions-sidebar.php:88
+msgid "Area 7 - sidebar-home.php - Displays on the Home Page"
+msgstr "В области 7 боковой home.php - отображается на домашней странице"
+
+#: core/includes/functions-sidebar.php:57
+msgid "Left Sidebar Half Page"
+msgstr "Сайдбар слева в полстраницы"
+
+#: core/includes/functions-sidebar.php:67
+msgid "Right Sidebar Half Page"
+msgstr "Сайдбар справа в полстраницы"
+
+#: core/includes/functions-sidebar.php:77
+msgid "Home Widget 1"
+msgstr "Виджет №1"
+
+#: core/includes/functions-sidebar.php:48
+msgid "Area 3 - sidebar-left.php - Displays on Sidebar/Content page templates"
+msgstr "Область 3 боковой left.php - отображает содержимое боковой панели Шаблоны страниц"
+
+#: core/includes/functions-sidebar.php:58
+msgid "Area 4 - sidebar-left-half.php - Displays on Sidebar Half Page/Content page templates"
+msgstr "Область 4 - боковой слева half.php - показывает на половину страницы/содержимое боковой панели Шаблоны страниц"
+
+#: core/includes/functions-sidebar.php:68
+msgid "Area 5 - sidebar-right-half.php - Displays on Content/Sidebar Half Page page templates"
+msgstr "Область 5 - боковой право half.php - показывает на половину страницы контента/боковой панели Шаблоны страниц"
+
+#: core/includes/functions-sidebar.php:47
+msgid "Left Sidebar"
+msgstr "Меню слева"
+
+#: core/includes/functions-sidebar.php:38
+msgid "Area 2 - sidebar-right.php - Displays on Content/Sidebar page templates"
+msgstr "Площадь 2 боковой right.php - показывает на шаблоны страниц содержание/боковой панели"
+
+#: core/includes/functions-sidebar.php:37
+msgid "Right Sidebar"
+msgstr "Меню справа"
+
+#: core/includes/functions-sidebar.php:28
+msgid "Area 1 - sidebar.php - Displays on Default, Blog, Blog Excerpt page templates"
+msgstr "Площадь 1 - sidebar.php - отображает по умолчанию, блог, блог отрывок шаблоны страниц"
+
+#: core/includes/functions-sidebar.php:27
+msgid "Main Sidebar"
+msgstr "Главная боковая колонка"
+
+#: core/includes/functions-install.php:38
+#: core/includes/theme-options/theme-options.php:52
+#: core/includes/theme-options/theme-options.php:104
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: core/includes/functions-install.php:35
+msgid "Visit site"
+msgstr "Перейти на сайт"
+
+#: core/includes/functions-install.php:31
+msgid "Settings saved and %s activated successfully."
+msgstr "Параметры сохраняются и %s успешно активирована."
+
+#: core/includes/functions-install.php:33
+msgid "%s activated successfully."
+msgstr "%s успешно активирована."
+
+#: core/includes/functions-extentions.php:332
+#: core/includes/theme-options/theme-options.php:431
+msgid "Yelp!"
+msgstr "Yelp!"
+
+#: core/includes/functions-extentions.php:334
+#: core/includes/theme-options/theme-options.php:449
+msgid "foursquare"
+msgstr "FourSquare"
+
+#: core/includes/customizer.php:201 core/includes/functions-extentions.php:326
+#: core/includes/theme-options/theme-options.php:377
+msgid "YouTube"
+msgstr "YouTube"
+
+#: core/includes/functions-extentions.php:193
+#: core/includes/functions-extras.php:169
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: core/includes/functions-extentions.php:49
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: core/includes/functions-extentions.php:47
+msgid "Posts tagged %s"
+msgstr "Публикации с метками %s"
+
+#: core/includes/functions-extentions.php:48 core/includes/functions.php:372
+msgid "View all posts by %s"
+msgstr "Посмотреть все записи автора %s"
+
+#: core/includes/functions-extentions.php:46 loop-header.php:59
+msgid "Search results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: core/includes/functions-extentions.php:45
+msgid "Archive for %s"
+msgstr "Архив для %s"
+
+#: core/includes/functions-extentions.php:44 loop-no-posts.php:37
+msgid "Home"
+msgstr "Главная"
+
+#: core/includes/functions-admin.php:164
+msgid "The Custom Front Page is enabled. You can disable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "На первой странице Custom включена. Его можно отключить в <a href=\"%1$s\"> настройки темы</a>."
+
+#: core/includes/functions-admin.php:166
+msgid "The Custom Front Page is disabled. You can enable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "На первой странице Custom отключена. Его можно включить в <a href=\"%1$s\"> Параметры темы</a>."
+
+#: core/includes/functions-admin.php:140
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Все плагины успешно установлены и активированы. %s"
+
+#: core/includes/functions-admin.php:127
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагином."
+
+#: core/includes/functions-admin.php:124
+msgid "Responsive Add Features"
+msgstr "Добавление функций Responsive"
+
+#: core/includes/functions-admin.php:125
+msgid "Activate Add Ons"
+msgstr "Активировать дополнения"
+
+#: core/includes/functions-admin.php:76 core/includes/functions-admin.php:77
+msgid "More Themes"
+msgstr "Другие темы"
+
+#: core/includes/functions-admin.php:73 core/includes/functions-admin.php:74
+msgid "Showcase"
+msgstr "Сайты на WordPress"
+
+#: core/includes/functions-admin.php:70 core/includes/functions-admin.php:71
+msgid "Translate"
+msgstr "Перевести"
+
+#: core/includes/customizer.php:288
+#: core/includes/theme-options/theme-options.php:461
+msgid "Custom CSS Styles"
+msgstr "Пользовательские стили CSS"
+
+#: core/includes/customizer.php:299
+#: core/includes/theme-options/theme-options.php:149
+msgid "Scripts"
+msgstr "Скрипты"
+
+#: core/includes/functions-admin.php:67 core/includes/functions-admin.php:68
+#: core/includes/functions-install.php:39
+msgid "Help"
+msgstr "Помощь"
+
+#: core/includes/functions-admin.php:64 core/includes/functions-admin.php:65
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: core/includes/customizer.php:283
+#: core/includes/theme-options/theme-options.php:145
+msgid "CSS Styles"
+msgstr "Стили CSS"
+
+#: core/includes/customizer.php:312
+msgid "Embeds to footer.php"
+msgstr "Встраивается в footer.php"
+
+#: core/includes/customizer.php:304
+msgid "Embeds to header.php"
+msgstr "Встраивается в header.php"
+
+#: core/includes/customizer.php:273
+msgid "Foursquare"
+msgstr "FourSquare"
+
+#: core/includes/customizer.php:264
+msgid "Yelp"
+msgstr "Yelp"
+
+#: core/includes/customizer.php:255 core/includes/functions-extentions.php:333
+#: core/includes/theme-options/theme-options.php:440
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: core/includes/customizer.php:246 core/includes/functions-extentions.php:327
+#: core/includes/theme-options/theme-options.php:386
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: core/includes/customizer.php:237 core/includes/functions-extentions.php:331
+#: core/includes/theme-options/theme-options.php:422
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: core/includes/customizer.php:228 core/includes/functions-extentions.php:330
+#: core/includes/theme-options/theme-options.php:413
+msgid "Instagram"
+msgstr "Instagram"
+
+#: core/includes/customizer.php:219 core/includes/functions-extentions.php:328
+#: core/includes/theme-options/theme-options.php:395
+msgid "RSS Feed"
+msgstr "RSS лента"
+
+#: core/includes/customizer.php:210 core/includes/functions-extentions.php:329
+#: core/includes/theme-options/theme-options.php:404
+msgid "Google+"
+msgstr "Google+"
+
+#: core/includes/customizer.php:192 core/includes/functions-extentions.php:325
+#: core/includes/theme-options/theme-options.php:368
+msgid "LinkedIn"
+msgstr "Linkedin"
+
+#: core/includes/customizer.php:183 core/includes/functions-extentions.php:324
+#: core/includes/theme-options/theme-options.php:359
+msgid "Facebook"
+msgstr "Facebook"
+
+#: core/includes/customizer.php:174 core/includes/functions-extentions.php:323
+#: core/includes/theme-options/theme-options.php:350
+msgid "Twitter"
+msgstr "Twitter"
+
+#: core/includes/customizer.php:167
+msgid "Enter the URL to your account for each service for the icon to appear in the header."
+msgstr "Введите URL к вашему профилю для каждого сервиса для появления иконки в шапке."
+
+#: core/includes/customizer.php:137
+#: core/includes/theme-options/theme-options.php:317
+msgid "Default Static Page Layout"
+msgstr "Макет статической страницы по умолчанию"
+
+#: core/includes/customizer.php:145
+#: core/includes/theme-options/theme-options.php:327
+msgid "Default Single Blog Post Layout"
+msgstr "Макет одной статьи блога по умолчанию"
+
+#: core/includes/customizer.php:153
+#: core/includes/theme-options/theme-options.php:337
+msgid "Default Blog Posts Index Layout"
+msgstr "Макет главной статьи блога по умолчанию"
+
+#: core/includes/customizer.php:165
+#: core/includes/theme-options/theme-options.php:141
+msgid "Social Icons"
+msgstr "Социальные иконки"
+
+#: core/includes/customizer.php:123
+#: core/includes/theme-options/theme-options.php:310
+msgid "Paste your shortcode, video or image source"
+msgstr "Вставьте свой шорткод, источник на видео или изображение"
+
+#: core/includes/customizer.php:132
+#: core/includes/theme-options/theme-options.php:137
+msgid "Default Layouts"
+msgstr "Макеты по умолчанию"
+
+#: core/includes/customizer.php:96
+#: core/includes/theme-options/theme-options.php:277
+msgid "Content Area"
+msgstr "Область содержания"
+
+#: core/includes/customizer.php:119
+#: core/includes/theme-options/theme-options.php:304
+msgid "Featured Content"
+msgstr "Избранное содержимое"
+
+#: core/includes/customizer.php:94
+#: core/includes/theme-options/theme-options.php:283
+#: template-parts/featured-area.php:44
+msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
+msgstr "Ваш заголовок, подзаголовок и это содержание можно отредактировать в Параметрах темы. А также, кнопку призыва к действию и ссылку его назначения. Справа от Вас может быть изображение или при желании, видео с YouTube."
+
+#: core/includes/customizer.php:89
+#: core/includes/theme-options/theme-options.php:268
+msgid "Subheadline"
+msgstr "Подзаголовок"
+
+#: core/includes/customizer.php:103
+#: core/includes/theme-options/theme-options.php:286
+msgid "Call to Action (URL)"
+msgstr "Призыв к действию (URL адрес)"
+
+#: core/includes/customizer.php:111
+#: core/includes/theme-options/theme-options.php:295
+msgid "Call to Action (Text)"
+msgstr "Привыв к действию (Текст)"
+
+#: core/includes/customizer.php:82
+#: core/includes/theme-options/theme-options.php:259
+msgid "Headline"
+msgstr "Верхняя линия"
+
+#: core/includes/customizer.php:74
+#: core/includes/theme-options/theme-options.php:250
+msgid "Enable Custom Front Page"
+msgstr "Включить пользовательскую главную страницу"
+
+#: core/includes/customizer.php:78
+msgid "Overrides the WordPress front page option"
+msgstr "Переопределяет настройки главной страницы WordPress"
+
+#: core/includes/customizer.php:23
+#: core/includes/theme-options/theme-options.php:123
+msgid "Theme Elements"
+msgstr "Элементы темы"
+
+#: core/includes/customizer.php:57
+#: core/includes/theme-options/theme-options.php:209
+msgid "Title Text"
+msgstr "Текст заголовка"
+
+#: core/includes/customizer.php:69
+#: core/includes/theme-options/theme-options.php:132
+msgid "Home Page"
+msgstr "Главная страница"
+
+#: core/includes/customizer.php:35
+#: core/includes/theme-options/theme-options.php:183
+msgid "Disable Call to Action Button?"
+msgstr "Отключить кнопку Призыв к действию?"
+
+#: core/includes/customizer.php:28
+#: core/includes/theme-options/theme-options.php:174
+msgid "Disable breadcrumb list?"
+msgstr "Отключить список навигатора?"
+
+#: core/includes/customizer.php:49
+#: core/includes/theme-options/theme-options.php:201
+msgid "Enable Blog Title"
+msgstr "Включить заголовок блога"
+
+#: core/includes/customizer.php:42
+#: core/includes/theme-options/theme-options.php:192
+msgid "Enable minified css?"
+msgstr "Включить минификацию css?"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2148
+msgid "Return to the Dashboard"
+msgstr "Вернуться на панель управления"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2055
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2054
+msgid "All installations have been completed."
+msgstr "Все установки были завершены."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2053
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2052
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s fehlgeschlagen."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2051
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Произошла ошибка при установке %1$s: <strong>%2$s</strong>."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2050
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Процесс установки и активации начат. Этот процесс может занять некоторое время, пожалуйста, будьте терпеливы."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2046
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2045
+msgid "All installations and activations have been completed."
+msgstr "Все установок и активаций были завершены."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2044
+#: core/includes/classes/class-tgm-plugin-activation.php:2053
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2044
+#: core/includes/classes/class-tgm-plugin-activation.php:2053
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2044
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и активирован успешно."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:2043
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Процесс установки и активации начат. Этот процесс может занять некоторое время, пожалуйста, будьте терпеливы."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1930
+msgid "Plugin activation failed."
+msgstr "Активация плагина не удалась"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1919
+msgid "Plugin installed successfully."
+msgstr "Плагин успешно установлен."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1918
+msgid "Plugin install failed."
+msgstr "Установка плагина не удалась."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1917
+msgid "Installing the plugin&#8230;"
+msgstr "Установка плагина&#8230;"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1916
+msgid "Unpacking the package&#8230;"
+msgstr "Извлечение файлов&#8230;"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1915
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Загрузка архива с <span class=\"code\">%s</span>&#8230;"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1914
+msgid "Install package not available."
+msgstr "Архив недоступен."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1370
+msgid "Activate"
+msgstr "Активировать"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1369
+msgid "Install"
+msgstr "Установить"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1351
+msgid "Status"
+msgstr "Статус"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1350
+msgid "Type"
+msgstr "Тип"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1349
+msgid "Source"
+msgstr "Источник"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1348
+msgid "Plugin"
+msgstr "Плагин"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1332
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr "Нет плагинов для установки или активации. <a href=\"%1$s\" title=\"Вернуться на панель управления\">Вернуться на панель управления</a>"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1151
+msgid "Installed But Not Activated"
+msgstr "Установлены, но не активированы"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1148
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1145
+msgid "Recommended"
+msgstr "РЕКОМЕНДУЕТСЯ"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1145
+msgid "Required"
+msgstr "Обязательно"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1142
+msgid "WordPress Repository"
+msgstr "WordPress репозитория"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1137
+msgid "Pre-Packaged"
+msgstr "Предварительно упакованные"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1133
+msgid "Private Repository"
+msgstr "Личное хранилище"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:1128
+msgid "External Link"
+msgstr "Внешняя ссылка"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr "Игнорировать это уведомление"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:173
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Всеплагины установлены и активированны успешно. %1$s"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:172
+#: core/includes/classes/class-tgm-plugin-activation.php:1614
+msgid "The following plugin was activated successfully:"
+msgstr "Этот плагин был успешно активирован:"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:171
+#: core/includes/classes/class-tgm-plugin-activation.php:1931
+#: core/includes/functions-admin.php:139
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr "Вернуться на панель управления"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:169
+#: core/includes/functions-admin.php:138
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться на установку подключаемых модулей."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:168
+#: core/includes/functions-admin.php:137
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Активируйте установленный плагин"
+msgstr[1] "Активируйте установленные плагины"
+msgstr[2] "Активируйте установленные плагины"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:167
+#: core/includes/functions-admin.php:136
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начать установку плагина"
+msgstr[1] "Начать установку плагинов"
+msgstr[2] ""
+
+#: core/includes/classes/class-tgm-plugin-activation.php:166
+#: core/includes/functions-admin.php:135
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+"Просим прощения, но у вас нет прав для обновления %s плагина.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[1] ""
+"Просим прощения, но у вас нет прав для обновления %s плагинов.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[2] ""
+
+#: core/includes/classes/class-tgm-plugin-activation.php:165
+#: core/includes/functions-admin.php:134
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Следующие плагин должен быть обновлен до своей последней версии для обеспечения максимальной совместимости с этой темой: %1$s."
+msgstr[1] "Следующие плагины должны быть обновлены до последней версии их для обеспечения максимальной совместимости с этой темой: %1$s."
+msgstr[2] ""
+
+#: core/includes/classes/class-tgm-plugin-activation.php:164
+#: core/includes/functions-admin.php:133
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+"Просим прощения, но у вас нет прав для активации %s плагина.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[1] ""
+"Просим прощения, но у вас нет прав для активации %s плагинов.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[2] ""
+
+#: core/includes/classes/class-tgm-plugin-activation.php:163
+#: core/includes/functions-admin.php:132
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следующие рекомендованные плагин в настоящее время неактивен: %1$s."
+msgstr[1] "Следующие рекомендованные плагины в настоящее время неактивны: %1$s."
+msgstr[2] ""
+
+#: core/includes/classes/class-tgm-plugin-activation.php:162
+#: core/includes/functions-admin.php:131
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Ниже требуется плагин в настоящее время неактивен: %1$s."
+msgstr[1] "Следующие необходимые плагины в настоящее время неактивны: %1$s."
+msgstr[2] ""
+
+#: core/includes/classes/class-tgm-plugin-activation.php:161
+#: core/includes/functions-admin.php:130
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+"Просим прощения, но у вас нет прав для установки %s плагина.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[1] ""
+"Просим прощения, но у вас нет прав для установки %s плагинов.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[2] ""
+
+#: core/includes/classes/class-tgm-plugin-activation.php:160
+#: core/includes/functions-admin.php:129
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Рекомендуется установка плагина: %1$s."
+msgstr[1] "Рекомендуется установка плагинов: %1$s."
+msgstr[2] ""
+
+#: core/includes/classes/class-tgm-plugin-activation.php:159
+#: core/includes/functions-admin.php:128
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Эта тема требует следующие плагин: %1$s."
+msgstr[1] "Эта тема требует следующие плагины: %1$s."
+msgstr[2] ""
+
+#: core/includes/classes/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr "Что-то пошло не так."
+
+#: core/includes/classes/class-tgm-plugin-activation.php:157
+#: core/includes/functions-admin.php:126
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:156
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#. #-#-#-#-#  responsive.pot (Responsive 1.9.8.9)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: core/includes/classes/Responsive_Options.php:257
+#: core/includes/post-custom-meta.php:167
+msgid "Sidebar/Content"
+msgstr "Сайдбар/Публикации"
+
+#. #-#-#-#-#  responsive.pot (Responsive 1.9.8.9)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: core/includes/classes/Responsive_Options.php:258
+#: core/includes/post-custom-meta.php:168
+msgid "Content/Sidebar Half Page"
+msgstr "Публикации/Сайдбар в полстраницы"
+
+#. #-#-#-#-#  responsive.pot (Responsive 1.9.8.9)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: core/includes/classes/Responsive_Options.php:259
+#: core/includes/post-custom-meta.php:169
+msgid "Sidebar/Content Half Page"
+msgstr "Сайдбар/Публикации в полстраницы"
+
+#. #-#-#-#-#  responsive.pot (Responsive 1.9.8.9)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: core/includes/classes/Responsive_Options.php:260
+#: core/includes/post-custom-meta.php:170
+msgid "Full Width Page (no sidebar)"
+msgstr "Страница в полную ширину (без сайдбара)"
+
+#: core/includes/classes/class-tgm-plugin-activation.php:155
+msgid "Install Required Plugins"
+msgstr "Установите требуемые подключаемые модули"
+
+#. #-#-#-#-#  responsive.pot (Responsive 1.9.8.9)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: core/includes/classes/Responsive_Options.php:256
+#: core/includes/post-custom-meta.php:166
+msgid "Content/Sidebar"
+msgstr "Публикации/Сайдбар"
+
+#: core/includes/classes/Responsive_Options.php:255
+#: core/includes/post-custom-meta.php:165
+msgid "Default"
+msgstr "По умолчанию"
+
+#: core/includes/classes/Responsive_Options.php:242
+msgid "Upgrade"
+msgstr "Обновить"
+
+#: core/includes/classes/Responsive_Options.php:241
+msgid "Restore Defaults"
+msgstr "Восстановить по умолчанию"
+
+#: core/includes/classes/Responsive_Options.php:240
+msgid "Save Options"
+msgstr "Сохранить изменения"
+
+#: core/includes/classes/Responsive_Options.php:38
+#: core/includes/theme-options/theme-options.php:99
+msgid "All theme settings will be lost!"
+msgstr "Все темы настройки будут потеряны!"
+
+#: core/includes/classes/Responsive_Options.php:38
+#: core/includes/theme-options/theme-options.php:99
+msgid "Click OK to Restore."
+msgstr "Нажмите OK для восстановления."
+
+#: core/includes/classes/Responsive_Options.php:38
+#: core/includes/theme-options/theme-options.php:99
+msgid "Do you want to restore?"
+msgstr "Действительно хотите восстановить?"
+
+#: comments.php:86
+msgid "Website"
+msgstr "Сайт"
+
+#: comments.php:84
+msgid "E-mail"
+msgstr "E-mail"
+
+#: comments.php:82
+msgid "Name"
+msgstr "Имя"
+
+#: comments.php:69
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s для  \"%3$s\""
+
+#: comments.php:66
+msgid "Pings&#47;Trackbacks"
+msgstr "Отклики &#47;Обратные ссылки "
+
+#: comments.php:41 comments.php:54
+msgid "Newer comments &#8250;"
+msgstr "Новее комментарий &#8250;"
+
+#: comments.php:39 comments.php:52
+msgid "&#8249; Older comments"
+msgstr "&#8249; Старые комментарий "
+
+#: comments.php:32
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария на &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев на &ldquo;%2$s&rdquo;"
+
+#: blog-excerpt.php:80 blog.php:82 loop-nav.php:30
+msgid "Newer posts &#8250;"
+msgstr "Новые публикации &#8250;"
+
+#: blog.php:65 content-sidebar-half-page.php:41 content-sidebar-page.php:41
+#: core/includes/functions-extras.php:96 full-width-page.php:41 home.php:53
+#: image.php:56 index.php:43 landing-page.php:39 page.php:40
+#: sidebar-content-half-page.php:54 sidebar-content-page.php:54 single.php:40
+msgid "Read more &#8250;"
+msgstr "Подробнее &#187;"
+
+#: comments.php:24
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Эта запись защищена паролем. Введите пароль, чтобы посмотреть комментарии."
+
+#: blog-excerpt.php:79 blog.php:81 loop-nav.php:29
+msgid "&#8249; Older posts"
+msgstr "&#8249; Старые публикации"
+
+#: archive.php:46 blog-excerpt.php:64 blog.php:66
+#: content-sidebar-half-page.php:42 content-sidebar-page.php:42
+#: full-width-page.php:42 home.php:54 image.php:57 index.php:44
+#: landing-page.php:40 page.php:41 search.php:41
+#: sidebar-content-half-page.php:55 sidebar-content-page.php:55 single.php:54
+#: sitemap.php:62
+msgid "Pages:"
+msgstr "Страниц:"
+
+#. Author of the plugin/theme
+msgid "CyberChimps.com"
+msgstr "CyberChimps.com"
+
+#. Author URI of the plugin/theme
+msgid "http://cyberchimps.com"
+msgstr "http://cyberchimps.com"
+
+#. Theme URI of the plugin/theme
+msgid "http://cyberchimps.com/responsive-theme/"
+msgstr "http://cyberchimps.com/responsive-theme/"
