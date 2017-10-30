@@ -18,13 +18,13 @@
 /** Имя базы данных для WordPress */
 define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/var/www/nextlevel/nextlevel.kiev.ua/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'nextleve');
+define('DB_NAME', 'nextlevel');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'u_nextleve');
+define('DB_USER', 'root');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'nxWSbdJu');
+define('DB_PASSWORD', '');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
