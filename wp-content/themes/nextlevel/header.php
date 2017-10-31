@@ -9,48 +9,101 @@
  * @package NextLevel
  */
 
-?>
-<!doctype html>
+?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-
-	<?php wp_head(); ?>
+	<title>Next Level - курсы английского языка в Киеве</title>
+	<link href="<?php bloginfo('template_directory') ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="<?php bloginfo('template_directory') ?>/css/style.css" rel="stylesheet" type="text/css">
+	<link href="<?php bloginfo('template_directory') ?>/css/media.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+	<link href="<?php bloginfo('template_directory') ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
-
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'nextlevel' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
-
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'nextlevel' ); ?></button>
-			<?php
-				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
+<body>
+	<div class="header">
+		<div class="top-head">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div class="lang">
+							<a href="<?php site_url() ?>/ru/">РУС</a>
+							<a href="<?php site_url() ?>/uk/">УКР</a>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="soc">
+							<a href="https://vk.com/club76199012"><img src="<?php bloginfo('template_directory') ?>/img/vk.png" alt="VK-next-level"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3">
+					<div class="logo">
+						<a href="/"><img src="<?php bloginfo('template_directory') ?>/img/logo.png" alt="Next-Level"></a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="phones">
+						<img src="<?php bloginfo('template_directory') ?>/img/vodafon.png" alt="Next Level - Vodafon"><a href="tel:+380997640715">(099)764-07-15</a>
+						<img src="<?php bloginfo('template_directory') ?>/img/lifecell.png" alt="Next Level - Lifecell"><a href="tel:+380934260046">(093)426-00-46</a>
+						<img src="<?php bloginfo('template_directory') ?>/img/kyievstar.png" alt="Next Level - Kyievstar"><a href="tel:+380963152477">(096)315-24-77</a>
+					</div>
+					<div class="search">
+						<form role="search" method="get" class="search-form" action="<?php site_url() ?>/">
+							<input type="search" class="search-field" placeholder="Поиск..." value="" name="s">
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<div class="block-mail">
+						<div class="mail">
+							<img src="<?php bloginfo('template_directory') ?>/img/mail.png" alt="Next Level - Mail">
+							<a href="mailto:next_level203@ukr.net">next_level203@ukr.net</a>
+						</div>
+						<div class="button">
+							<a href="#course">Записаться на курс</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="button-click">
+						<i class="fa fa-bars nav-menu-click" aria-hidden="true"></i>
+					</div>
+					<div class="nav-menu">
+						<?php wp_nav_menu( array(
+							'theme_location'  => '',
+							'menu'            => '',
+							'container'       => 'ul',
+							'container_class' => 'nav-menu',
+							'container_id'    => '',
+							'menu_class'      => 'nav-menu',
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
+							'depth'           => 0,
+							'walker'          => '',
+							) ); ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>

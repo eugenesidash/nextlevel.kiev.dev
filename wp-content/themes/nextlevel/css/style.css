@@ -458,3 +458,12 @@ footer p {
 .img-bg-5 {
   display: none;
 }
+.entry-footer {
+  background-color: #fff;
+}
+.entry-footer, .page-title {
+  display: none;
+}
+.content-page p {
+  font-size: 16px;
+}
