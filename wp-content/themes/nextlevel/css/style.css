@@ -1,0 +1,460 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  zoom: 0.95;
+}
+ul {
+  padding: 0;
+}
+h3 {
+  font-size: 32px;
+  text-align: center;
+  color: #1b1f5d;
+  margin-top: 10px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0;
+}
+a {
+  color: #000;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #ca1c32;
+}
+.top-head {
+  background-color: #f3f2f2;
+  margin-bottom: 5px;
+}
+.lang {
+  float: left;
+}
+.lang a {
+  padding: 5px;
+  margin-right: 10px;
+}
+.soc {
+  float: right;
+}
+.soc img {
+  padding: 5px;
+}
+.button {
+  background-color: #1b1f5d;
+  border: 1px solid #1b1f5d;
+  width: 215px;
+  border-radius: 25px;
+}
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #fff;
+  color: #1b1f5d;
+}
+.button a {
+  color: #fff;
+  text-align: center;
+  display: inherit;
+  padding: 10px 5px;
+  font-size: 16px;
+}
+.button a:hover,
+.button a:focus,
+.button a:active {
+  color: #1b1f5d;
+}
+.logo img {
+  width: 205px;
+}
+.phones {
+  margin-top: 20px;
+}
+.phones img {
+  margin-right: 10px;
+}
+.phones a {
+  margin-right: 45px;
+}
+.search input {
+  width: 500px;
+  margin: 20px auto;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.block-mail {
+  width: 215px;
+  margin: 0 auto;
+}
+.block-mail .mail {
+  width: 170px;
+  margin: 20px auto 15px;
+}
+.nav-menu {
+  font-weight: bold;
+  max-width: 1075px;
+  margin: 0 auto;
+}
+.nav-menu ul {
+  border-top: 1px solid #777;
+}
+.nav-menu ul li {
+  list-style: none;
+  float: left;
+  font-size: 16px;
+  padding: 10px 15px;
+  text-align: center;
+}
+.nav-menu ul li a {
+  color: #777;
+}
+.nav-menu ul li a:hover,
+.nav-menu ul li a:focus,
+.nav-menu ul li a:active {
+  color: #ca1c32;
+}
+.bg-1 {
+  background-image: url(../img/bg-1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.bg-1 h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 1px 1px 2px #000, 0 0 1em #000;
+  -webkit-filter: Shadow(Color=#000000, Direction=45, Strength=4);
+          filter: Shadow(Color=#000000, Direction=45, Strength=4);
+}
+.bg-1 p {
+  color: #fff;
+  text-align: center;
+  font-size: 37px;
+  margin-top: 10px;
+}
+.bg-1 hr {
+  color: #fff;
+  width: 120px;
+  height: 1px;
+  background-color: #fff;
+}
+.check {
+  width: 75px;
+  margin: 40px auto 0;
+}
+.text-content {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.bg-2 {
+  background-image: url(../img/bg-2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.bg-2 h3 {
+  font-size: 36px;
+  text-align: center;
+  color: #1b1f5d;
+  margin-top: 10px;
+}
+.bg-2 .button {
+  width: 160px;
+  margin: 0 auto;
+  position: relative;
+  top: -10px;
+}
+.bg-2 p {
+  margin: 20px auto;
+}
+.bg-3 {
+  background-image: url(../img/bg-3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.bg-3 .li-color {
+  margin: 40px 0;
+}
+.bg-3 .li-color img {
+  float: left;
+  margin-right: 20px;
+}
+.bg-3 .li-color p {
+  margin: 0;
+  margin-left: 75px;
+}
+.bg-3 .button {
+  width: 185px;
+  margin: 0 auto 20px;
+}
+.bg-4 {
+  background-image: url(../img/bg-4.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.bg-4 .button {
+  clear: both;
+  width: 170px;
+  margin: 0 auto 20px;
+  position: relative;
+  top: 10px;
+}
+.bg-4 .button a {
+  padding: 10px 5px;
+}
+.bg-4 .text-content .programm {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px 0;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+.bg-4 .text-content .programm .adults {
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+.bg-4 .text-content .programm .adults .mess {
+  width: 72px;
+  margin: 0	auto;
+}
+.bg-4 .text-content .programm .adults h4 {
+  text-align: center;
+  margin: 20px 0;
+}
+.bg-4 .text-content .programm .adults ul {
+  width: 135px;
+  margin: 0 auto;
+}
+.bg-4 .text-content .programm .adults ul li {
+  list-style-image: url(../img/li-blue-small.png);
+  text-align: center;
+  margin: 15px 0;
+}
+.bg-4 .text-content .programm .children {
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+.bg-4 .text-content .programm .children .mess {
+  width: 72px;
+  margin: 0	auto;
+}
+.bg-4 .text-content .programm .children h4 {
+  text-align: center;
+  margin: 20px 0;
+}
+.bg-4 .text-content .programm .children ul {
+  width: 245px;
+  margin: 0 auto;
+}
+.bg-4 .text-content .programm .children ul li {
+  list-style-image: url(../img/li-red-small.png);
+  text-align: center;
+  margin: 15px 0;
+}
+.bg-5 {
+  background-image: url(../img/bg-5.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+.bg-6 {
+  background-image: url(../img/bg-6.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+.bg-6 h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.bg-6 .left-block,
+.bg-6 .right-block {
+  float: left;
+}
+.bg-6 .sense {
+  width: 300px;
+  height: 71px;
+  margin: 30px	auto;
+}
+.bg-6 .sense img {
+  float: left;
+  margin-right: 30px;
+}
+.bg-6 .sense p {
+  color: #fff;
+  line-height: 1.5;
+}
+.bg-7 {
+  background-image: url(../img/bg-7.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.bg-7 .button {
+  width: 150px;
+  margin: 20px auto;
+}
+.bg-7 .img {
+  height: 228px;
+  float: left;
+  margin-right: 15px;
+}
+.bg-7 .left-rev,
+.bg-7 .right-rev {
+  width: 500px;
+  margin: 0 10px;
+}
+.bg-7 p span {
+  color: #5c5b5b;
+}
+.bg-8 {
+  background-image: url(../img/bg-8.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.bg-8 .button {
+  width: 150px;
+  margin: 40px auto;
+}
+.bg-8 .stat {
+  padding: 10px 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.bg-8 .stat h4 {
+  text-align: center;
+}
+.bg-8 .stat hr {
+  height: 1px;
+  background-color: #000;
+  width: 280px;
+}
+.bg-8 .stat .author {
+  float: left;
+  width: 150px;
+}
+.bg-8 .stat .author img {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.bg-8 .stat .data {
+  float: right;
+  width: 150px;
+}
+.bg-8 .stat .data img {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.bg-8 .stat .bot-stat {
+  width: 318px;
+  margin: 0 auto;
+}
+.bg-8 .stat .bot-stat img {
+  width: 318px;
+}
+.bg-9 {
+  background-image: url(../img/bg-9.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.bg-9 form {
+  max-width: 400px;
+  margin-bottom: 100px;
+}
+.bg-9 form input {
+  margin: 20px 0;
+  padding-left: 20px;
+  width: 400px;
+  height: 60px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.bg-9 form textarea {
+  margin: 20px 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 400px;
+  height: 60px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  resize: none;
+}
+.bg-9 form input.button {
+  color: #fff;
+  font-size: 16px;
+  width: 210px;
+  margin: 0 auto 20px;
+  padding: 0;
+  display: block;
+  height: 45px;
+}
+.bg-9 form input.button:hover,
+.bg-9 form input.button:focus,
+.bg-9 form input.button:active {
+  color: #1b1f5d;
+}
+.map {
+  height: 401px;
+}
+.map iframe {
+  width: 50%;
+  height: 415px;
+  float: left;
+  border: 0;
+}
+.map .left-map iframe {
+  padding-right: 1%;
+}
+.map .right-map iframe {
+  padding-left: 1%;
+}
+footer {
+  height: 45px;
+  background-color: #1b1f5d;
+}
+footer p {
+  text-align: center;
+  color: #fff;
+  line-height: 3.3;
+}
+.button-click {
+  display: none;
+}
+.nav-menu-click,
+.img-bg-5 {
+  display: none;
+}
