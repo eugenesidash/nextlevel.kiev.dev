@@ -155,4 +155,23 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
+function the_breadcrumb() {
+	if (!is_front_page()) {
+		echo '<a href="';
+		echo get_option('home');
+		echo '">Главная';
+		echo "</a> / ";
+		if (is_category() || is_single()) {
+			the_category(' ');
+			if (is_single()) {
+				echo " / ";
+				the_title();
+			}
+		} elseif (is_page()) {
+			echo the_title();
+		}
+	}
+	else {
+		echo 'Home';
+	}
+}

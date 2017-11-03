@@ -222,6 +222,9 @@
   .bg-8 .stat .bot-stat img {
     width: 280px;
   }
+  .circle {
+    display: none;
+  }
 }
 @media screen and (max-width: 400px) {
   .bg-4 .text-content .programm .adults,
