@@ -351,43 +351,45 @@ a:active {
 	width: 150px;
 	margin: 40px auto;
 }
-.bg-8 .stat {
+.stat {
 	padding: 10px 20px;
 	background-color: #fff;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+	width: 360px;
+	height: 540px;
 }
-.bg-8 .stat h4 {
+.stat h4 {
 	text-align: center;
 }
-.bg-8 .stat hr {
+.stat hr {
 	height: 1px;
 	background-color: #000;
 	width: 280px;
 }
-.bg-8 .stat .author {
+.stat .author {
 	float: left;
 	width: 150px;
 }
-.bg-8 .stat .author img {
+.stat .author img {
 	float: left;
 	margin-top: 10px;
 	margin-right: 10px;
 }
-.bg-8 .stat .data {
+.stat .data {
 	float: right;
 	width: 150px;
 }
-.bg-8 .stat .data img {
+.stat .data img {
 	float: left;
 	margin-top: 10px;
 	margin-right: 10px;
 }
-.bg-8 .stat .bot-stat {
+.stat .bot-stat {
 	width: 318px;
 	margin: 0 auto;
 }
-.bg-8 .stat .bot-stat img {
+.stat .bot-stat img {
 	width: 318px;
 }
 .bg-9 {
@@ -477,7 +479,7 @@ footer p {
 	display: none;
 }
 .content-page p {
-	font-size: 16px;
+	font-size: 15px;
 }
 .breadcrumb {
 	text-align: center;
@@ -564,4 +566,32 @@ p.teach-deviz {
 	position: absolute;
 	top: 600px;
 	right: -10px;
+}
+#secondary {
+	display: none;
+}
+.blog-preview .stat {
+	float: left;
+	margin: 15px;
+}
+.blog-preview .stat h4 {
+	height: 60px;
+}
+.stat-content {
+	height: 310px;
+}
+.blog-preview {
+	margin-bottom: 40px;
+}
+#nav-posts {
+	text-align: center;
+}
+.wp-pagenavi a, .wp-pagenavi span {
+	text-decoration: none;
+	padding: 3px 4px;
+	margin: 1px;
+	font-size: 20px;
+}
+.wp-pagenavi .pages {
+	display: none;
 }

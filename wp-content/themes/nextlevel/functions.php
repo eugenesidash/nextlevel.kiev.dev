@@ -175,3 +175,12 @@ function the_breadcrumb() {
 		echo 'Home';
 	}
 }
+function new_excerpt_length($length) {
+	return 70;
+}
+add_filter('excerpt_length', 'new_excerpt_length');
+function new_excerpt_more($more) {
+	global $post;
+	return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');

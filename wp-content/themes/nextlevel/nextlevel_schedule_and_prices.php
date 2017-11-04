@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Contacts
+Template Name: Schedule and prices
 */
 ?>
 <?php get_header() ?>
@@ -14,7 +14,15 @@ Template Name: Contacts
 		</div>
 	</div>
 </div>
-<?php the_post(); ?>
-<?php the_content(); ?>
-<?php wp_footer(); ?>
+<div class="container">
+	<div class="row">
+		<div class="content-page">
+			<br>
+			<br>
+			<!-- <?php the_post(); ?> -->
+			<!-- <?php the_content(); ?> -->
+			
+		</div>
+	</div>
+</div>
 <?php get_footer() ?>

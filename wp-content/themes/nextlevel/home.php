@@ -11,7 +11,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container bg-2" id="about">
+	<div class="container bg-2">
 		<div class="row">
 			<div class="col-lg-3"></div>
 			<div class="col-lg-6">
