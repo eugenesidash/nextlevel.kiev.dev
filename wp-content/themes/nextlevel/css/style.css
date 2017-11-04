@@ -595,3 +595,6 @@ p.teach-deviz {
 .wp-pagenavi .pages {
 	display: none;
 }
+.entry-content {
+	padding: 0 10px;
+}

@@ -38,6 +38,26 @@
 		width: 780px;
 		margin: 0 auto 40px;
 	}
+	.blog-preview-home {
+		width: auto;
+	}
+	.blog-preview-home .stat-home {
+		margin: 10px;
+		width: 300px;
+		height: auto;
+	}
+	.blog-preview-home .stat-home h4 {
+		height: 80px;
+	}
+	.bg-8 .stat-home .data-home {
+		width: 150px;
+	}
+	.bg-8 .stat-home .author-home {
+		width: 100px;
+	}
+	.stat-content-home {
+		height: 380px;
+	}
 }
 @media screen and (max-width: 1090px) {
 	.bg-5 {
@@ -96,6 +116,16 @@
 	}
 	.stat-text {
 		margin-top: 50px;
+	}
+	.blog-preview-home {
+		width: 320px;
+		margin: 0 auto;
+	}
+	.stat-home .bot-stat-home {
+		width: 260px;
+	}
+	.bg-8 .stat-home .bot-stat-home img {
+		width: 260px;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -320,6 +350,14 @@
 		margin: 0 auto 10px;
 	}
 }
+@media screen and (max-width: 345px) {
+	.blog-preview-home .stat-home {
+		width: 280px;
+	}
+	.bg-8 .stat-home .author-home {
+		width: 90px;
+	}
+}
 @media screen and (max-width: 340px) {
 	.bg-1 h2 {
 		font-size: 25px;
@@ -331,5 +369,8 @@
 @media screen and (max-width: 335px) {
 	.bg-8 .stat .author {
 		width: 100px;
+	}
+	.bg-8 .stat-home .author-home {
+		width: 90px;
 	}
 }

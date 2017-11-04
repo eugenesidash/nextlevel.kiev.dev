@@ -231,97 +231,83 @@
 					<h3>Статьи</h3>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4">
-					<div class="stat">
-						<a href="<?php site_url() ?>/polza-i-effektivnost-intensivnogo-izucheniya-angliiskogo-yazyika/"><h4>Польза и эффективность изучения английского языка</h4></a>
-						<div class="author">
-							<img src="<?php bloginfo('template_directory') ?>/img/author.png" alt="Next Level - Author"><p>Дарья Мирошник</p>
-						</div>
-						<div class="data">
-							<img src="<?php bloginfo('template_directory') ?>/img/calendar.png" alt="Next Level - Calendar"><p>25 сентября, 2017</p>
-						</div>
-						<hr>
-						<p class="stat-text">Интенсивные курсы английского языка, безусловно, обладают некоторыми преимуществами. И при современном быстротекущем темпе жизни, для того чтобы быстро и качественно овладеть иностранным многие выбирают именно такой вид его изучения. Чем отличаются интенсивные курсы от обычных? Прежде всего, сразу стоит отметить, что при таком способе изучения языка основная часть всех работ полностью «ложится» на плечи студента. А педагог при этом просто осуществляет контроль над процессом получения знаний и навыков, ставит новые задачи перед студентом.</p>
-						<div class="bot-stat">
-							<img src="<?php bloginfo('template_directory') ?>/img/statii.png" alt="Next Level - Statii">
-						</div>
+			<div class="container">
+				<div class="row">
+					<div class="content-page">
+						<br>
+						<br>
+						<div class="blog-preview blog-preview-home">
+							<article>
+								<?php
+								$temp = $wp_query;
+								$wp_query= null;
+								$wp_query = new WP_Query(); $wp_query->query('showposts=3' . '&paged='.$paged);
+								while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+								<div class="stat stat-home">
+									<a href="<?php the_permalink() ?>"><?php echo get_the_post_thumbnail() ?></a>
+									<h4><a href="<?php the_permalink(); ?>" title="Читать дальше"><?php the_title(); ?></a></h4>
+									<div class="author author-home">
+										<img src="<?php bloginfo('template_directory') ?>/img/author.png" alt="Next Level - Author"><p><?php the_author() ?></p>
+									</div>
+									<div class="data data-home">
+										<img src="<?php bloginfo('template_directory') ?>/img/calendar.png" alt="Next Level - Calendar"><p><?php the_date('F j, Y', '<p class="date-post">', '</p>'); ?></p>
+									</div>
+									<hr>
+									<?php the_date('F j, Y', '<p class="date-post>', '</p>'); ?>
+									<div class="stat-content stat-content-home">
+										<?php the_excerpt(); ?>
+									</div>
+									<div class="bot-stat bot-stat-home">
+										<img src="<?php bloginfo('template_directory') ?>/img/statii.png" alt="Next Level - Statii">
+									</div>
+								</div>
+							<?php endwhile; ?>
+						</article>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="stat">
-						<a href="<?php site_url() ?>/individualnyie-uroki-angliyskogo-yazyika/"><h4>Индивидуальные уроки английского языка</h4></a>
-						<div class="author">
-							<img src="<?php bloginfo('template_directory') ?>/img/author.png" alt="Next Level - Author"><p>Дарья Мирошник</p>
-						</div>
-						<div class="data">
-							<img src="<?php bloginfo('template_directory') ?>/img/calendar.png" alt="Next Level - Calendar"><p>22 августа, 2017</p>
-						</div>
-						<hr>
-						<p class="stat-text">Изучение английского языка – дело не всегда легкое и простое. И причин для этого может целое множество. У кого-то просто не хватает времени, чтобы подстроиться под расписание групповых курсов, а кто-то просто плохо воспринимает материал, когда вокруг много людей. В этих случаях необходимы индивидуальные уроки английского языка.Наша школа предлагает своим клиентам самые разнообразные курсы. У нас проходят и групповые занятия, где подбираются студенты с учетом возрастных и уровневых особенностей, и индивидуальные занятия по английскому языку.</p>
-						<div class="bot-stat">
-							<img src="<?php bloginfo('template_directory') ?>/img/statii.png" alt="Next Level - Statii">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="stat">
-						<a href="<?php site_url() ?>/korporativnyie-kursyi-angliyskogo-yazyika/"><h4>Корпоративные курсы английского языка</h4></a>
-						<div class="author">
-							<img src="<?php bloginfo('template_directory') ?>/img/author.png" alt="Next Level - Author"><p>Дарья Мирошник</p>
-						</div>
-						<div class="data">
-							<img src="<?php bloginfo('template_directory') ?>/img/calendar.png" alt="Next Level - Calendar"><p>11 июля, 2017</p>
-						</div>
-						<hr>
-						<p class="stat-text">Наша школа предлагает всем руководителям больших и малых предприятий или компаний услуги по корпоративному обучению сотрудников английскому языку. Корпоративные курсы английского языка обеспечат быстрое и надежное обучение всех сотрудников фирмы языку, что в результате принесет высокое качество и эффективность их работы с иностранными клиентами и заказчиками. Корпоративный английский в Киеве в нашей школе в основном нацелен на определенные навыки, в зависимости от направления работы сотрудника.</p>
-						<div class="bot-stat">
-							<img src="<?php bloginfo('template_directory') ?>/img/statii.png" alt="Next Level - Statii">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="button">
-						<a href="<?php site_url() ?>/category/articles/">Все статьи</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container bg-9" id="course">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="check">
-					<img src="<?php bloginfo('template_directory') ?>/img/check.png" alt="Next Level Check">
-				</div>
-				<h3>Запись на курс</h3>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-1 col-md-1 col-sm-1"></div>
-			<div class="col-lg-5 col-md-5 col-sm-5"></div>
-			<div class="col-lg-5 col-md-5 col-sm-5">
-				<form name="nextlevel-form" method="post" action="<?php bloginfo('template_directory') ?>/form_send.php">
-					<input type="text" name="name" maxlength="30" placeholder="Введите имя" required>
-					<input type="text" name="phone" maxlength="20" placeholder="Введите номер телефона" required>
-					<textarea name="comments" id="comments" placeholder="Введите комментарий"></textarea>
-					<br>
-					<input class="button" name="submit" type=submit value="Записаться на курс">
-				</form>
+			<div class="col-lg-12">
+				<div class="button">
+					<a href="<?php site_url() ?>/blog/">Все статьи</a>
+				</div>
 			</div>
-			<div class="col-lg-1 col-md-1 col-sm-1"></div>
 		</div>
 	</div>
-	<div class="map">
-		<div class="left-map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5081.756650698579!2d30.622755!3d50.443367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c55ba305bd51%3A0x57f12e2dea8428fe!2z0L_RgNC-0YHQv9C10LrRgiDQnNC40YDRgywgNCwg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1509387111481" allowfullscreen></iframe>
-		</div>
-		<div class="right-map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10160.581184198863!2d30.394968!3d50.457019!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc5e2fdb51f1%3A0xe2639744a4d1f022!2zMkEsINCy0YPQu9C40YbRjyDQp9C40YHRgtGP0LrRltCy0YHRjNC60LAsIDLQkCwg0JrQuNGX0LIsINCj0LrRgNCw0LjQvdCw!5e0!3m2!1sru!2sru!4v1509387194856" allowfullscreen></iframe>
+</div>
+<div class="container bg-9" id="course">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="check">
+				<img src="<?php bloginfo('template_directory') ?>/img/check.png" alt="Next Level Check">
+			</div>
+			<h3>Запись на курс</h3>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-lg-1 col-md-1 col-sm-1"></div>
+		<div class="col-lg-5 col-md-5 col-sm-5"></div>
+		<div class="col-lg-5 col-md-5 col-sm-5">
+			<form name="nextlevel-form" method="post" action="<?php bloginfo('template_directory') ?>/form_send.php">
+				<input type="text" name="name" maxlength="30" placeholder="Введите имя" required>
+				<input type="text" name="phone" maxlength="20" placeholder="Введите номер телефона" required>
+				<textarea name="comments" id="comments" placeholder="Введите комментарий"></textarea>
+				<br>
+				<input class="button" name="submit" type=submit value="Записаться на курс">
+			</form>
+		</div>
+		<div class="col-lg-1 col-md-1 col-sm-1"></div>
+	</div>
+</div>
+<div class="map">
+	<div class="left-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5081.756650698579!2d30.622755!3d50.443367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c55ba305bd51%3A0x57f12e2dea8428fe!2z0L_RgNC-0YHQv9C10LrRgiDQnNC40YDRgywgNCwg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1509387111481" allowfullscreen></iframe>
+	</div>
+	<div class="right-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10160.581184198863!2d30.394968!3d50.457019!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc5e2fdb51f1%3A0xe2639744a4d1f022!2zMkEsINCy0YPQu9C40YbRjyDQp9C40YHRgtGP0LrRltCy0YHRjNC60LAsIDLQkCwg0JrQuNGX0LIsINCj0LrRgNCw0LjQvdCw!5e0!3m2!1sru!2sru!4v1509387194856" allowfullscreen></iframe>
+	</div>
+</div>
 </div>
 <footer id="home-footer">
 	<p>Copyright <?php echo date('Y'); ?></p>
