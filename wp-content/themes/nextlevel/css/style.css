@@ -518,6 +518,7 @@ footer p {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 	margin: 50px 0;
 	padding: 20px;
+	height: 580px;
 }
 .teach-img {
 	float: left;
@@ -559,7 +560,7 @@ p.teach-deviz {
 }
 .circle-3 {
 	position: absolute;
-	top: 420px;
+	top: 400px;
 	right: 40px;
 }
 .circle-4 {

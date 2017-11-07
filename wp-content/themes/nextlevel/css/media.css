@@ -58,6 +58,9 @@
 	.stat-content-home {
 		height: 380px;
 	}
+	.teach {
+		height: 630px;
+	}
 }
 @media screen and (max-width: 1090px) {
 	.bg-5 {
@@ -127,6 +130,9 @@
 	.bg-8 .stat-home .bot-stat-home img {
 		width: 260px;
 	}
+	.teach {
+		height: 840px;
+	}
 }
 @media screen and (max-width: 900px) {
 	.bg-6 .sense p {
@@ -147,6 +153,13 @@
 	.blog-preview {
 		width: 390px;
 		margin: 0 auto;
+	}
+	.teach {
+		height: auto;
+	}
+	.circle-4 {
+		right: 0px;
+		top: 490px;
 	}
 }
 @media screen and (max-width: 610px) {
@@ -223,7 +236,7 @@
 		width: 300px;
 	}
 	.search input {
-		width: 300px;
+		width: 285px;
 	}
 	.button-click {
 		display: block;
