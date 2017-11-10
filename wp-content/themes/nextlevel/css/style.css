@@ -766,7 +766,10 @@ p.teach-deviz {
 .tab > input:nth-of-type(1):checked ~ div:nth-of-type(1),
 .tab > input:nth-of-type(2):checked ~ div:nth-of-type(2),
 .tab > input:nth-of-type(3):checked ~ div:nth-of-type(3),
-.tab > input:nth-of-type(4):checked ~ div:nth-of-type(4) {
+.tab > input:nth-of-type(4):checked ~ div:nth-of-type(4),
+.tab > input:nth-of-type(5):checked ~ div:nth-of-type(5),
+.tab > input:nth-of-type(6):checked ~ div:nth-of-type(6),
+.tab > input:nth-of-type(7):checked ~ div:nth-of-type(7) {
 	display: block;
 }
 .tab {
@@ -830,6 +833,7 @@ p.teach-deviz {
 }
 .bg-snoska {
 	background-color: #f3f2f2;
+	height: 260px;
 }
 .snoska {
 	padding: 5px 0;
@@ -852,4 +856,116 @@ p.teach-deviz {
 }
 .p-cont p {
 	margin: 10px 0;
+}
+.bg-all {
+	min-height: 350px;
+}
+.bg-grey {
+	background-color: #f3f2f2;
+	height: 115px;
+	margin: 10px auto;
+}
+.bg-white {
+	background-color: #fff;
+	height: 115px;
+	margin: 10px auto;
+}
+.bg-grey p, .bg-white p {
+	font-size: 16px;
+	margin: 0;
+	margin-top: 35px;
+}
+.bg-grey img, .bg-white img {
+	float: left;
+	margin-right: 10px;
+}
+.el-el-1, .el-el-2,
+.el-el-3, .el-el-4,
+.el-el-5, .el-el-6,
+.el-el-7, .el-el-8 {
+	position: absolute;
+}
+.el-el-1 {
+	top: -30px;
+	left: -50px;
+}
+.el-el-2 {
+	top: -30px;
+	right: 0;
+}
+.el-el-3 {
+	top: -65px;
+	left: -100px;
+}
+.el-el-4 {
+	top: -30px;
+	right: -70px;
+}
+.el-el-5 {
+	top: -30px;
+	left: -50px;
+}
+.el-el-6 {
+	top: -30px;
+	right: -30px;
+}
+.el-el-7 {
+	top: -30px;
+	left: -100px;
+}
+.el-el-8 {
+	top: -50px;
+	right: -50px;
+}
+.bg-white-2 {
+	height: 90px;
+}
+.snoska-sno {
+	max-width: 800px;
+	height: 120px;
+	margin: 0 auto;
+}
+.snoska-sno div {
+	float: left;
+	margin: 0 50px;
+}
+.snoska-sno div p {
+	text-align: center;
+}
+.in-img {
+	width: 66px;
+	margin: 0 auto;
+}
+.gru-img img {
+	margin-bottom: 20px;
+}
+.snocka-child {
+	background-color: #f3f2f2;
+	padding: 10px 0;
+	margin-bottom: 50px;
+}
+.bg-child-2 {
+	background-image: url(../img/bg-child-2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 590px;
+	padding-bottom: 80px;
+}
+.text-center {
+	text-align: center;
+	font-size: 16px !important;
+	margin: -20px auto 20px;
+	font-weight: bold;
+	color: #1b1f5d;
+}
+.tab-name-child {
+	width: 33.33%;
+}
+.tab-name-child p {
+	padding: 5px 0;
+}
+.tab-name-child-last {
+	line-height: 3;
 }
