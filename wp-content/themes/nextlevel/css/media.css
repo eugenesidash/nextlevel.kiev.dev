@@ -150,6 +150,9 @@
 	.block-center-991 {
 		float: none;
 	}
+	.tab-content h4 {
+		margin: 185px 0 0 0;
+	}
 }
 @media screen and (max-width: 980px) {
 	.bg-grey p, .bg-white p {
@@ -177,6 +180,12 @@
 	.el-el-5, .el-el-6,
 	.el-el-7, .el-el-8 {
 		display: none;
+	}
+}
+@media screen and (max-width: 775px) {
+	.snoska-sno {
+		max-width: 280px;
+		height: 340px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -223,13 +232,11 @@
 	.snoska {
 		margin-bottom: 0;
 	}
-}
-@media screen and (max-width: 760px) {
-	.snoska-sno {
-		max-width: 440px;
+	.bg-ad-2 {
+		margin-top: -190px;
 	}
-	.snoska-sno div {
-		margin: 0 20px;
+	.bg-child-2 {
+		margin-top: -190px;
 	}
 }
 @media screen and (max-width: 617px) {
@@ -332,6 +339,19 @@
 	.tab-name-child-last {
 		line-height: normal;
 	}
+	.tab-content-ad {
+		top: -70px;
+	}
+	.bg-ad-2 {
+		margin-top: -100px;
+		padding-bottom: 0;
+	}
+	.bg-child-2 {
+		margin-top: -110px;
+	}
+	.snocka-child {
+		margin-bottom: 50px;
+	}
 }
 @media screen and (max-width: 440px) {
 	.phones {
@@ -383,13 +403,6 @@
 	}
 	.circle {
 		display: none;
-	}
-	.snoska-sno {
-		max-width: 140px;
-	}
-	.snocka-child {
-		margin-bottom: 0;
-		height: 500px;
 	}
 }
 @media screen and (max-width: 400px) {

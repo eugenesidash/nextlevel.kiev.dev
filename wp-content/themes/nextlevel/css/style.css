@@ -751,7 +751,6 @@ p.teach-deviz {
 	background-image: url(../img/bg-ad-2.png);
 	background-position: center center;
 	background-repeat: no-repeat;
-	/*background-size: 115%;*/
 	background-size: cover;
 	width: 100%;
 	min-height: 660px;
@@ -769,7 +768,9 @@ p.teach-deviz {
 .tab > input:nth-of-type(4):checked ~ div:nth-of-type(4),
 .tab > input:nth-of-type(5):checked ~ div:nth-of-type(5),
 .tab > input:nth-of-type(6):checked ~ div:nth-of-type(6),
-.tab > input:nth-of-type(7):checked ~ div:nth-of-type(7) {
+.tab > input:nth-of-type(7):checked ~ div:nth-of-type(7),
+.tab > input:nth-of-type(8):checked ~ div:nth-of-type(8),
+.tab > input:nth-of-type(9):checked ~ div:nth-of-type(9) {
 	display: block;
 }
 .tab {
@@ -834,6 +835,7 @@ p.teach-deviz {
 .bg-snoska {
 	background-color: #f3f2f2;
 	height: 260px;
+	margin-bottom: 190px;
 }
 .snoska {
 	padding: 5px 0;
@@ -879,49 +881,8 @@ p.teach-deviz {
 	float: left;
 	margin-right: 10px;
 }
-.el-el-1, .el-el-2,
-.el-el-3, .el-el-4,
-.el-el-5, .el-el-6,
-.el-el-7, .el-el-8 {
-	position: absolute;
-}
-.el-el-1 {
-	top: -30px;
-	left: -50px;
-}
-.el-el-2 {
-	top: -30px;
-	right: 0;
-}
-.el-el-3 {
-	top: -65px;
-	left: -100px;
-}
-.el-el-4 {
-	top: -30px;
-	right: -70px;
-}
-.el-el-5 {
-	top: -30px;
-	left: -50px;
-}
-.el-el-6 {
-	top: -30px;
-	right: -30px;
-}
-.el-el-7 {
-	top: -30px;
-	left: -100px;
-}
-.el-el-8 {
-	top: -50px;
-	right: -50px;
-}
-.bg-white-2 {
-	height: 90px;
-}
 .snoska-sno {
-	max-width: 800px;
+	max-width: 820px;
 	height: 120px;
 	margin: 0 auto;
 }
@@ -942,7 +903,7 @@ p.teach-deviz {
 .snocka-child {
 	background-color: #f3f2f2;
 	padding: 10px 0;
-	margin-bottom: 50px;
+	margin-bottom: 210px;
 }
 .bg-child-2 {
 	background-image: url(../img/bg-child-2.png);
@@ -968,4 +929,48 @@ p.teach-deviz {
 }
 .tab-name-child-last {
 	line-height: 3;
+}
+.tab-first {
+	max-width: 100%;
+}
+.tab-content-first {
+	position: relative;
+	top: 180px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: none;
+}
+.tab-name-ad {
+	position: relative;
+	top: -170px;
+}
+.tab-content-ad {
+	position: relative;
+	top: -120px;
+}
+.bg-color img {
+	float: left;
+}
+.block-ch p {
+	font-size: 17px;
+	margin: 0;
+	padding-top: 40px;
+}
+.bg-grey-2 {
+	background-color: #f3f2f2;
+	height: 115px;
+}
+.bg-white-2 {
+	height: 115px;
+}
+.el-el-1, .el-el-2,
+.el-el-3, .el-el-4,
+.el-el-5, .el-el-6,
+.el-el-7, .el-el-8 {
+	display: none;
+}
+.tab-ch {
+	position: relative;
+	top: -180px;
+	margin-bottom: -180px;
 }
