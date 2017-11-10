@@ -25,7 +25,7 @@
 					<p>В нашей школе постоянно действуют скидки на занятия в дневное время, а также появляются новые акции. Первое занятие БЕСПЛАТНО.</p>
 				</div>
 				<div class="button">
-					<a href="<?php site_url() ?>/chto-dumayut-o-nas-studentyi-statya-k-dnyu-rozhdeniya-shkolyi/">Подробнее</a>
+					<a href="<?php site_url() ?>/o-nas/">Подробнее</a>
 				</div>
 			</div>
 			<div class="col-lg-3"></div>

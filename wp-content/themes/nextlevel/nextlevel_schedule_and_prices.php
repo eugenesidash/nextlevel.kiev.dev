@@ -14,15 +14,6 @@ Template Name: Schedule and prices
 		</div>
 	</div>
 </div>
-<div class="container">
-	<div class="row">
-		<div class="content-page">
-			<br>
-			<br>
-			<!-- <?php the_post(); ?> -->
-			<!-- <?php the_content(); ?> -->
-			
-		</div>
-	</div>
-</div>
+<?php the_post(); ?>
+<?php the_content(); ?>
 <?php get_footer() ?>

@@ -61,6 +61,14 @@
 	.teach {
 		height: 630px;
 	}
+	.content-about p {
+		font-size: 1.12em;
+	}
+}
+@media screen and (max-width: 1135px) {
+	.block-shed {
+		width: 310px;
+	}
 }
 @media screen and (max-width: 1090px) {
 	.bg-5 {
@@ -133,10 +141,24 @@
 	.teach {
 		height: 840px;
 	}
+	.content-about p {
+		font-size: 0.85em;
+	}
+	.block-left-991 {
+		float: left;
+	}
+	.block-center-991 {
+		float: none;
+	}
 }
 @media screen and (max-width: 900px) {
 	.bg-6 .sense p {
 		text-shadow: 1px 1px 2px black, 0 0 1em #000;
+	}
+}
+@media screen and (max-width: 840px) {
+	.first, .second, .third {
+		padding: 15px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -160,6 +182,24 @@
 	.circle-4 {
 		right: 0px;
 		top: 490px;
+	}
+	.block-none-991 {
+		float: none;
+	}
+	.shed-grup {
+		max-width: 420px;
+		margin: 0 auto;
+	}
+	.shed-grup p {
+		line-height: normal;
+	}
+	.block-child-left, .block-child-right {
+		float: none;
+	}
+}
+@media screen and (max-width: 617px) {
+	.block-child-right, .block-child-left {
+		float: none;
 	}
 }
 @media screen and (max-width: 610px) {
@@ -310,6 +350,9 @@
 	.bg-8 .stat h4 {
 		font-size: 16px;
 	}
+	.first, .second, .third {
+		padding: 5px;
+	}
 }
 @media screen and (max-width: 375px) {
 	.blog-preview {
@@ -341,6 +384,9 @@
 	}
 	.stat .data {
 		margin-bottom: 25px;
+	}
+	.first, .second, .third {
+		float: none;
 	}
 }
 @media screen and (max-width: 360px) {
